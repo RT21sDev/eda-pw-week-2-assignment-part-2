@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// In this code snippet, a variable name is initialized with the value 'Dane'.
+// The if statement checks if the value of name is equal to 'Mary'.
+// Since the value of name is 'Dane', the condition name === 'Mary' evaluates to false, and the code inside the else block will be executed.
+// When this code is run, the output of the console.log statement will be 'How do you do?'.
 
 //CODE
 /*
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// In this code snippet, there are two variables initialized: secret is declared but not assigned a value, and code is set to 123.
+// The first if statement checks if the value of code is equal to 123. Since the condition is true, the code inside this block assigns the string 'super' to the secret variable and doubles the value of code to 246.
+// The second if statement checks if the value of code is greater than 250, which is true after doubling in the first if block. Therefore, the secret variable is updated to 'duper'.
+// When this code is run, the output of the console.log statement will be 'duper'.
 
 //CODE
 /*
@@ -70,10 +70,14 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// In this code snippet, there are three variables initialized: isStudent is set to true, age is set to 34, and zip is set to 55407.
+// The if-else if-else statements check various conditions:
+// If isStudent is true and zip is greater than 80000, it will print "You're a student on the West Coast!".
+// If isStudent is false or age is less than 30, it will print "What are your hobbies?".
+// If isStudent is true (but the previous condition didn't match), it will print "Welcome to Prime!".
+// If none of the above conditions are met, it will print "How about the weather?".
+// When this code is run, the output will be determined based on the values of the variables. 
+// Since isStudent is true and zip is not greater than 80000, the output will be "Welcome to Prime!".
 
 //CODE
 /*
@@ -123,7 +127,10 @@ if (number >= 2) {
 
 */
 
-
+//(DESCRIPTION OF CORRECT BEHAVIOR for #4)
+// We start with three variables -- colorOne is set to 'red' and 
+// colorTwo is set to 'blue', and mix is set to true. We check if mix is true 
+// -- it is, so we set both colorOne and colorTwo to 'purple'
 
 //4. We start with three variables -- colorOne is set to 'blue' and 
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
@@ -139,6 +146,11 @@ if (mix === true) {
 }
 */
 
+//(DESCRIPTION OF CORRECT BEHAVIOR for #5)
+// We start with two variables -- temp is set to 40 and time is set to 4.
+// if temp is higher than 39 and if time is greater than or equal to 4, which both conditions are met.
+// Therefore, the code will output 'throw away the food!' to the console.
+
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
@@ -151,6 +163,11 @@ if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
 */
+
+//(DESCRIPTION OF CORRECT BEHAVIOR for #6)
+//The code checks if the age is greater than or equal to the minAge.
+//since the age is equal to the minAge which is 21, the condition is true.
+//The code correctly prints 'no entry' to the console because the age is equal to the minimum required age for entry.
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
@@ -166,4 +183,3 @@ if(minAge <= age) {
   console.log('enter');
 }
 */
-
